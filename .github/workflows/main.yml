@@ -1,12 +1,5 @@
 name: CI
 
-on:
-  push:
-  pull_request:
-  release:
-    types:
-      - created
-
 jobs:
   Build:
     runs-on: windows-latest
